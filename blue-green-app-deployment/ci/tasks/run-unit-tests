@@ -6,6 +6,6 @@ set -xe
 #npm install
 #mocha tests --recursive
 
-cd concourse-pipeline-samples/blue-green-app-deployment/channel_cms
+cd concourse-pipeline-samples/blue-green-app-deployment/ci/channel_cms
 mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package -Pcoverage-per-test sonar:sonar
 
