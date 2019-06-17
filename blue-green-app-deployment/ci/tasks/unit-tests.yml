@@ -4,7 +4,7 @@ platform: linux
 image_resource:
   type: docker-image
   source:
-    repository: rickeysu/jdk8centos:v1
+    repository: rickeysu/jdk8maven:v1
     tag: "latest"
 
 inputs:
